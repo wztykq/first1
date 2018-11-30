@@ -1,58 +1,6 @@
-body{
-    margin:0;
-    padding:0;
-    font-family:Arial,Helvetica,sans-serif;
-}
-header a{
-    height:120px;
-    display:block;
-    background-image:url("images/01.jpg");
-    background-position:center center;
-}
-nav-01{
-    height:40px;
-    background:#333;
-}
-yang-nav div.center{
-    width:1226px;
-    margin:0 auto;
-    height:100px;
-    font-size:12px;
-    color:#424242
-}
-nav-01-div.center div.left{
-    height:100px;
-    float:left;
-}
-nav-01-div.left span{
-    float:left;
-    margin-right:6px;
-    line-height:40px;
-}
-nav-ykq-left a{
-    color:#b0b0b0;
-    text-decoration:none;
-}
-nav-ykq-right{
-    float:right;
-}
-ykq-nav-div.right div.shoppingCart{
-    float:right;
-    height:40px;
-    width:120px;
-    background-color:#424242;
-    box-sizing:border-box;
-    background:url("images/shoppingCart1.png");
-    background-position:20px center;
-    background-repeat:no-repeat;
-    margin-left:20px;
-}
-nav-div.right div.shoppingCart a-ykq{
-    text-decoration:none;
-    color:#b0b0b0;
-    line-height:40px;
-    padding-left:45px;
-}
-nav-div.right div.login-01{
-    float:right;
+body {
+  font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+  color:#333;
+  background-color:#fff;
+  min-width:1226px;
 }
