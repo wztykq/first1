@@ -30,6 +30,7 @@ body{
 .topbar-nav-01{
     float:left;
     line-height:40px;
+
 }
 
 .site-topbar .sep-01{
@@ -38,11 +39,15 @@ body{
     font-family:sans-serif;
     line-height:40px;
 }
+
 .site-topbar .shoppingcartIcon-wzt{
     width:120px;
     margin-left:15px;
     position:relative;
     float:right;
+    background:#424242;
+    height:40px;
+    display:block;
 }
 
 .site-topbar .wzt-iconfont{
@@ -115,6 +120,9 @@ body{
     width:850px;
 }
 
+.header-nav-yang :hover{
+   color:#ff6700;
+}
 .site-header .nav-ykq-list{
     z-index:10;
     float:left;
@@ -214,44 +222,78 @@ input[type='search']{
     background:#fff;
 }
 
-.site-category{
-    display:block;
+.leftBar{
     position:absolute;
-    top:88px;
-    left:-92px;
-    z-index:21;
-    width:234px;
-    height:460px;
-    font-size:14px;
+    top : 148px;
+    width : 234px;
+    height : 460px;
+    background-color : rgba(0, 0, 0, 0.6);
+    float : left; 
+    margin-left:20px;  
 }
 
-.site-category-list-y{
-    height:420px;
-    border:0;
-    color:#fff;
-    background:rgba(0,0,0,0.6);
-    margin:0;
-    padding:20px 0;
-    list-style-type:none;
+
+.leftBar a{
+    float : left;
+    height : 42px;    
+    width : 100%;
+    text-decoration : none;
+    color : #fff;
+    line-height : 42px;
+    padding:0 30px;
+    font-size : 14px;
+    box-sizing : border-box;
 }
 
-.site-category .category-y-item{
-    color:#fff;
-    list-style-type:none;
+.leftBar a span{
+    font-size : 16px;
+    font-weight : bold;
+    float : right;
 }
 
-.site-category-list-y .y-title{
-    color:#fff;
+.leftBar a:hover{
+    background: #ff6700;
+} 
+
+.home-hero-container{
     position:relative;
+    z-index:10;
+    width:1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-hero{
+    margin-bottom:26px;
+}
+
+.home-hero-slider{
+    height:460px;
+    overflow:hidden;
+
+}
+
+.ui.wrapper{
+    margin:0;
+    padding:0;
+    max-width:100%;
+}
+
+.home-hero-slider .slide{
+    height:460px;
+    position:absolute;
+    float:none;
+    z-index:none;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+.ui-wrapper img{
     display:block;
-    padding-left:30px;
-    height:42px;
-    line-height:42px;
+    max-width:100%;
 }
 
-.a{
-    text-decoration:none;
+img{
+    border:0;
 }
-
-
-
