@@ -1,0 +1,383 @@
+body{
+    font:14px/1.5 "Helevtica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB",
+        "Heiti SC","WenQuanYi Mico Hei",sans-serif;
+    color:#333;
+    background-color:#fff;
+    min-width:1226px;
+}
+
+.site-topbar{
+    position:relative;
+    z-index:30;
+    height:40px;
+    font-size:12px;
+    color:#b0b0b0;
+    background:#333;
+    display:block;
+}
+
+.container{
+    width:1226px;
+    margin-right:auto;
+    margin-left:auto;
+    font-size:12px;
+    color:#b0b0b0;
+    display:table;
+    clear:both;
+    margin-bottom:26px;
+    height:644px;
+} 
+
+.topbar-nav-01{
+    float:left;
+    line-height:40px;
+}
+.site-topbar .sep-01{
+    margin:0.3em;
+    color:#424242;
+    font-family:sans-serif;
+    line-height:40px;
+}
+
+.site-topbar .shoppingcartIcon-wzt{
+    width:120px;
+    margin-left:15px;
+    position:relative;
+    float:right;
+    background:#424242;
+    height:40px;
+    display:block;
+}
+
+.site-topbar .shoppingcartIcon-wzt .cart-mini{
+    margin:4px;
+    font-size:20px;
+    line-height:10px;
+    vertical-align:-4px;
+    text-align:center;
+    color:#b0b0b0;
+
+}
+
+.topbar-info{
+    line-height:40px;
+    position:relative;
+    float:right;
+    display:block;
+}
+
+.topbar-info a{
+    padding:0 5px;
+    text-align:center;
+    float:left;
+    line-height:40px;
+    text-decoration:none;
+}
+.topbar-info .wzt-sep{
+    margin:0;
+    float:left;
+    color:#424242;
+
+}
+
+.site-header{
+    position:relative;
+    z-index:20;
+    height:100px;
+    color:#333;
+
+}
+
+.site-header .container{
+    width:1226px;
+    *zoom:1;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.site-header .container{
+    width:1226px;
+    *zoom:1;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.site-header .header-1-logo{
+    float:left;
+    width:62px;
+    margin-top:22px;
+
+}
+
+.site-header .logo-ykq{
+    display:block;
+    width:55px;
+    height:55px;
+    overflow:hidden;
+    background-color:#ff6700;
+    text-align:left;
+    text-indent:-9999em;
+    color:#757575;
+    text-decoration:none;
+    position:relative;
+
+}
+
+.site-header .header-nav-yang{
+    float:left;
+    width:850px;
+}
+
+.header-nav-yang :hover{
+    color:#ff6700;
+ }
+ .site-header .nav-ykq-list{
+     z-index:10;
+     float:left;
+     width:820px;
+     height:88px;
+     margin:0;
+     padding:12px 0 0 30px;
+     list-style-type:none;
+     font-size:16px;
+ }
+ 
+ .site-header .nav-category-ykq{
+     float:left;
+     width:127px;
+     padding-right: 15px;
+ }
+ 
+ .site-header .nav-category-ykq .link-category-01{
+     visibility:hidden;
+     display:block;
+     padding:26px 0 38px;
+     text-align: right;
+     text-decoration: none;
+ }
+ .site-header .nav-item{
+    float:left;
+    list-style-type:none;
+    font-size:16px;
+}
+
+.site-header .nav-item .link{
+    display:block;
+    padding:26px 10px 38px;
+    *padding:26px 8px 38px;
+    color:#333;
+}
+
+.site-header .nav-item .a{
+text-decoration:none;
+}
+
+.site-header .nav-item-active .link{
+    color:#ff6700;
+}
+
+.site-header .header-search-wzt{
+    float:right;
+    width:296px;
+    margin-top:25px;
+}
+
+.site-header .search-wzt-form{
+    position:relative;
+    width:296px;
+    height:50px;
+}
+
+
+
+.site-header .ykq-search-text{
+    position:absolute;
+    top:0px;
+    right:51px;
+    z-index:1;
+    width:223px;
+    height:48px;
+    padding:0 10px;
+    border:1px solid #e0e0e0;
+    font-size:14px;
+    line-height:48px;
+    outline:0;
+}
+
+input[type='search']{
+    box-sizing:content-box;
+}
+
+.site-header .search-btn:hover{
+    background:#ff6700;
+}
+
+.site-header .search-btn-wzt{
+    position: absolute;
+    right:0;
+    top:0;
+    z-index:2;
+    width:52px;
+    height:50px;
+    border:1px solid#e0e0e0;
+    line-height:24px;
+    outline:0;
+    background:#fff;
+}
+
+
+.leftBox-01{
+    display:block;
+    position:absolute;
+    top : 100px;
+    width : 234px;
+    height : 460px;
+    float : left; 
+    font-size:14px;
+    z-index:21;
+    
+    
+}
+
+.leftBox-01-list{
+    padding: 20px 0;
+    height:420px;
+    border:0;
+    margin:0;
+    background-color : rgba(0, 0, 0, 0.6);
+    height:420px;
+    
+    
+}
+
+
+.leftBox-01-item a{
+    float : left;
+    height : 42px;    
+    width : 100%;
+    text-decoration : none;
+    color : #fff;
+    line-height : 42px;
+    padding:0 30px;
+    font-size : 14px;  
+    box-sizing : border-box;
+    display:block;
+    position:relative;
+
+}
+
+.leftBox-01-item a span{
+    font-size : 16px;
+    font-weight : bold;
+    float : right;
+}
+
+.leftBox-01-item a:hover{
+    background: #ff6700;
+} 
+
+.home-01ykq{
+    position:relative;
+    z-index:10;
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+}
+.home-01ykq-page{
+    height:644px;
+}
+
+.home-01ykq-page-slider{
+    height:460px;
+    position: relative;
+    overflow:hidden;
+    float:none;
+    z-index:none;
+    list-style-type: none;
+    list-style-position: outside;
+    list-style-image: none;
+    width:1226px;
+}
+
+.picture{
+    display:block;
+    max-width:100%;
+}
+
+img{
+    border:0;
+}
+
+.home-01ykq .home-01ykq-sub .row{
+    margin-top:14px;
+    
+
+}
+.row{
+    margin-left:-14px;
+}
+
+
+.span4{
+    float:left;
+    width:234px;
+    margin-left:14px;
+    min-height:1px;
+    height:170px;
+}
+.home-channel-list{
+    margin:0;
+    padding:3px;
+    list-style-type: none;
+    font-size:12px;
+    width:229px;
+    margin-top:14px;
+    background:#5f5750;
+    height:170px;
+    text-align:center;
+}   
+
+
+.home-channel-list .top-left-y{
+    position:relative;
+    float:left;
+    width:70px;
+    height:82px;
+    padding:0 3px;
+    list-style-type: none;
+
+}
+
+.top-let-y .picture{
+    display:block;
+    padding-top:18px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+    color:rgba(255;255;255;0.7);
+    height:24px;
+    font-size:24px;
+    line-height:24px;
+    margin-bottom:4px;
+    text-align:center;
+
+}
+.home-channel-list i{
+    display:block;
+    height:24px;
+    margin-bottom:4px;
+    font-size:24px;
+    line-height:24px;
+    
+}
+.iconfont{
+    font-family:normal;
+    font-family:"iconfont" !important;
+}
+
+
+
+
+
+
+
